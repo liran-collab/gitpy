@@ -16,23 +16,5 @@ def sort_two_list(list1 : list[int], list2: list[int]) -> list[int]:
 
     print(list3)
 
-# def sort_two_list_better(list1 : list[int], list2: list[int]) -> list[int]:
-#     list3 : list[int] = []
-#     for num in list1:
-#         list3.append(num)
-    
-#     for num in list2:
-#         list3.append(num)
-
-#     for i in range(1, len(list3)):
-#         temp : int = list3[i]
-#         j = i - 1
-#         while j >= 0 and temp < list3[j]:
-#             list3[j + 1] = list3[j]
-#             j -= 1
-#         list3[j + 1] = temp
-
-#     print(list3)
-
 if __name__ == "__main__":
     sort_two_list(list1,list2)
